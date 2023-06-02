@@ -23,11 +23,11 @@ MonoBehaviour:
     PDF: https://ktane.timwi.de/PDF/Seeded%20Maze.pdf
 
 
-    Seeded Maze (seededMazeModule) v1.0.0
+    Seeded Maze (seededMazeModule) v1.0.1
 
     Module and Concept by eXish
 
     Twitch Plays supported'
-  version: 1.0.0
+  version: 1.0.1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: c309ef6bb58ec664f8ac89543c079e44, type: 3}

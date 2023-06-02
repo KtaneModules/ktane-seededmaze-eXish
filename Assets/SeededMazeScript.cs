@@ -86,13 +86,13 @@ public class SeededMazeScript : MonoBehaviour {
         int index = 0;
         for (int i = 0; i < times; i++)
         {
-            if (serialDirs[index] == 0 && tempY != 0 && maze[tempY - 1, tempX] != -1)
+            if (serialDirs[index] == 0 && tempY != 0 && maze[tempX, tempY - 1] != -1)
                 tempY--;
-            else if (serialDirs[index] == 1 && tempX != 18 && maze[tempY, tempX + 1] != -1)
+            else if (serialDirs[index] == 1 && tempX != 18 && maze[tempX + 1, tempY] != -1)
                 tempX++;
-            else if (serialDirs[index] == 2 && tempY != 18 && maze[tempY + 1, tempX] != -1)
+            else if (serialDirs[index] == 2 && tempY != 18 && maze[tempX, tempY + 1] != -1)
                 tempY++;
-            else if (serialDirs[index] == 3 && tempX != 0 && maze[tempY, tempX - 1] != -1)
+            else if (serialDirs[index] == 3 && tempX != 0 && maze[tempX - 1, tempY] != -1)
                 tempX--;
             index++;
             if (index == 6)
